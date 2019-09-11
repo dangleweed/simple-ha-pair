@@ -89,8 +89,8 @@ EXAMPLES = '''
       $ ansible-playbook xls_to_facts.yml --ask-vault
 
 '''
-import sys
-sys.path.append('/usr/lib/python3.6/site-packages/openpyxl')
+#import sys
+#sys.path.append('/usr/lib/python3.6/site-packages/openpyxl')
 import openpyxl
 
 # ---------------------------------------------------------------------------
