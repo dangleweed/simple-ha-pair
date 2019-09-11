@@ -3,8 +3,8 @@
   connection: local
   gather_facts: no
   environment:
-    F5_USER: "admin"
-    F5_PASSWORD: "admin"
+    F5_USER: "test"
+    F5_PASSWORD: "Dilig3nt1!"
     F5_VALIDATE_CERTS: "no"
     ANSIBLE_NET_SSH_KEYFILE: ./rsa_pub.id
  
